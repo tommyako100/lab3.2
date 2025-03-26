@@ -69,4 +69,16 @@ class CalculatorTest {
 		// Assert
 		Assertions.assertEquals(expected, actual);
 	}
+	@Test
+	void addMediumNumbersTest() {
+		// Arrange
+		double num1 = 120, num2 = 302;
+		double expected = 422;
+		
+		// Act
+		double actual = calculator.divide(num1, num2);
+		
+		// Assert
+		Assertions.assertEquals(expected, actual);
+	}
 }
