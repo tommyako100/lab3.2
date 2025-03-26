@@ -76,7 +76,7 @@ class CalculatorTest {
 		double expected = 422;
 		
 		// Act
-		double actual = calculator.divide(num1, num2);
+		double actual = calculator.addd(num1, num2);
 		
 		// Assert
 		Assertions.assertEquals(expected, actual);
